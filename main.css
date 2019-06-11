@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;    
+    background-image: url(../help-me-choose/images/movies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-weight: lighter;
+    font-family: serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+
+.inputSection {
+    margin: 15px 0px 30px;
+    width: 400px;
+}
+
+.inputs {
+    width: inherit
+}
+
+button {
+    background-color: rgb(229, 147, 147);
+    width: 100px;
+}
+
